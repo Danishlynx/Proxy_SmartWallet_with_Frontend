@@ -84,7 +84,8 @@ Deployment Images:
 
 ![Screenshot 2024-02-14 191308](https://github.com/Danishlynx/Proxy-SmartWallet_contract_factory/assets/69537135/4ccea338-6c02-46da-9ddd-0b96b84c43b0)
 
-![Screenshot 2024-02-14 191231](https://github.com/Danishlynx/Proxy-SmartWallet_contract_factory/assets/69537135/1f82402e-60a5-4064-b8b8-94f2b35b5403)
+![1 (7)](https://github.com/Danishlynx/Proxy_SmartWallet_with_Frontend/assets/69537135/178d28b2-8de5-4eb9-a5cd-a27de19f18dd)
+
 
 ![Screenshot 2024-02-14 191125](https://github.com/Danishlynx/Proxy-SmartWallet_contract_factory/assets/69537135/6bbc05e6-b70d-42e3-b8d5-6e93be1a9344)
 
