@@ -1,0 +1,30 @@
+/* Existing styles... */
+
+.balance-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.balance-button:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+.balance-display {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9; /* Light grey background */
+  border: 1px solid #ddd; /* Grey border */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: inline-block;
+}
+
+.balance-text {
+  color: #333; /* Dark grey text */
+  font-size: 18px;
+}

@@ -1,0 +1,127 @@
+/* App.css */
+.app {
+  font-family: 'Inter', sans-serif;
+  color: #E6E7EE;
+  background: linear-gradient(145deg, #120318, #0C0F1D);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Styles for ProgressBar */
+.progress-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #76a9fa;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+
+.app-header {
+  max-width: 800px;
+  width: 100%;
+  background: #151823;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  background: linear-gradient(90deg, #6D5BBA 0%, #8D58BF 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+  font-weight: 500;
+  margin: 10px; /* Added margin for spacing between buttons */
+}
+
+.btn:disabled {
+  background: #3E3E50;
+  color: #6D5BBA; /* Slightly different color to indicate disabled state */
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #5A4B9E 0%, #7A469F 100%);
+}
+
+.wallet-details, .wallet-actions, .transaction-group, .delegate-section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.connected-account, .wallet-info p, .message {
+  font-size: 0.9rem;
+  color: #A9A9B3;
+  word-break: break-all;
+}
+
+.input-field {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #E6E7EE;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.input-field::placeholder {
+  color: #B1B1B1;
+}
+
+.loader {
+  color: #8D58BF;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+  }
+}
